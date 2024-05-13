@@ -1,0 +1,9 @@
+schema: schema.graphql
+extensions:
+  endpoints:
+    Default GraphQL Endpoint:
+      url: http://localhost:4000/admin/graphql
+      # url: https://api-dev.geofile.mx/admin/graphql
+      headers:
+        user-agent: JS GraphQL
+      introspect: false
